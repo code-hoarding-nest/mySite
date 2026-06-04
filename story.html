@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+<meta charset="UTF-8">
+
+<title>Remotivating!</title>
+
+<!--FIXME-->
+<meta name="description" content="Mad Libs with Javascript">
+<meta name="keywords" content="Mad Libs, Javascript, input">
+<meta name="author" content= "Nick Buxton">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel = "stylesheet" type = "text/css" href = "resources/story.css">
+<link rel = "stylesheet" type ="text/css" href = "resources/style.css">
+<link rel="icon" type="image/png" href="resources/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <header>
+        <p>Nick's Website</p>
+        <img src = "resources/360_F_134537443_VendrqyXIWyHrZgxdIsfyKUost734JDP.jpg"
+        alt = "Light filtering through ocean" height = "115" width = "150">
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href = "index.html" title = "home page">Home Page</a></li>
+            <li><a href = "nickspicks.html" title = "Nick's picks">Homework 1
+                </a></li>
+            <li>
+                <div class = "dropdown">
+                    <button>More &#x25BC;</button>
+                        <div class = "dropdown-content">
+                            <a href = "hw3.html" title = "Link to CSS demonstartion">
+                                CSS in Action</a>
+                            <a href = "icarusTutorial.html" title = "Link to Icarus
+                                Tutorial">Icarus Tutorial</a>
+                            <a href = "story.html" title = "Link to other Mad Libs page">
+                                Mad Libs</a>
+                            <a href = "slideshow.html" title = "Link to slideshow page">
+                                Slideshow</a>
+                            <a href = "form.html" title = "Link to superhero maker page">
+                                Superhero Maker</a>
+                            <a href="animate.html" title="Link to Last Airbender 
+                                animation page">Animation</a>
+                        </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+<main>
+    <br>
+    <h1>Remotivating: a short mad libs</h1>
+    <p>Help write the story by typing words in the boxes!</p>
+
+    <div class = "row">
+        <div class = "col-m-6 col-6">
+            <p>
+                <label for = "lib1">Enter a name: </label>
+                <input type = "text" id = lib1>
+            </p>
+            <p>
+                <label for = "lib2">Enter a verb: </label>
+                <input type = "text" id = lib2>
+            </p>
+            <p>
+                <label for = "lib3">Enter an emotion: </label>
+                <input type = "text" id = lib3>
+            </p>
+            <p>
+                <label for = "lib4">Enter a verb: </label>
+                <input type = "text" id = lib4>
+            </p>
+            <p>
+                <label for = "lib5">Enter a noun: </label>
+                <input type = "text" id = lib5>
+            </p>
+            <p>
+                <label for = "lib6">Enter a name: </label>
+                <input type = "text" id = lib6>
+            </p>
+            <p>
+                <label for = "lib7">Enter a verb: </label>
+                <input type = "text" id = lib7>
+            </p>
+            <p>
+                <label for = "lib8">Enter a noun: </label>
+                <input type = "text" id = lib8>
+            </p>
+            <button onClick="madLibs()">Go!</button>
+        </div>
+            <img src = "resources/motivate.png" width = "227" height = "153" alt = 
+                "Man running toward goals">
+            <img src = "resources/advice.jpg" width = "256" height = "192" alt = 
+                "Man asking for advice">
+    </div>    
+
+    <p id = "madLib"></p>
+    
+
+</main>
+
+<div class = "row">
+    <div class = "col-m-12">
+        <footer>
+            <ul>
+                <li>Nick Buxton</li>
+                <li>2024</li>
+                <li>Weber State Univeristy</li>
+            </ul>
+           
+        </footer>
+    </div>
+</div>
+
+<script src = "madLibs.js"></script>
+</body>
+
+</html>

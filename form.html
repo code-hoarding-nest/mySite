@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+<meta charset="UTF-8">
+
+<title>Make a Superhero</title>
+
+<meta name="description" content="A website for creating your own superhero">
+<meta name="keywords" content="superhero, super, hero, metahuman">
+<meta name="author" content= "Nick Buxton">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel = "stylesheet" type ="text/css" href = "resources/style.css">
+<link rel="stylesheet" type="text/css" href="resources/formStyle.css">
+<link rel="icon" type="image/png" href="resources/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<script src="resources/form.js"></script>
+</head>
+
+<body>
+<header>
+    <p>Nick's Website</p>
+    <img src = "resources/360_F_134537443_VendrqyXIWyHrZgxdIsfyKUost734JDP.jpg"
+    alt = "Light filtering through ocean" height = "115" width = "150">
+</header>
+
+<nav>
+    <ul>
+        <li><a href = "index.html" title = "home page">Home Page</a></li>
+        <li><a href = "nickspicks.html" title = "Nick's picks">Homework 1
+            </a></li>
+        <li>
+            <div class = "dropdown">
+                <button>More &#x25BC;</button>
+                    <div class = "dropdown-content">
+                        <a href = "hw3.html" title = "Link to CSS demonstartion">
+                            CSS in Action</a>
+                        <a href = "icarusTutorial.html" title = "Link to Icarus
+                            Tutorial">Icarus Tutorial</a>
+                        <a href = "story.html" title = "Link to other Mad Libs page">
+                            Mad Libs</a>
+                        <a href = "slideshow.html" title = "Link to slideshow page">
+                            Slideshow</a>
+                        <a href = "form.html" title = "Link to superhero maker page">
+                            Superhero Maker</a>
+                        <a href="animate.html" title="Link to Last Airbender 
+                                animation page">Animation</a>
+                    </div>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<main>
+<br>
+<h1>Create a Superhero!</h1>
+<form method="post" action ="https://icarus.cs.weber.edu/~linda/cs2350/submit.php">
+
+<div class="row>">
+    <div class="col-6 formCol">
+        <!--collapsible form hero id-->
+        <p>
+            <label for="showHeroSec">Hero Identity </label>
+            <input type="checkbox" id="showHeroSec" name="showHeroSec">
+        </p>
+        <section id="heroIdSection" style="display:none">
+            <p>
+            <label for="heroName"> Hero name: </label>
+            <input type="text" id="heroName" name="heroName">
+            </p>
+
+            <p>
+            <label for="heroPower"> Hero power: </label>
+            <input type="text" id="heroPower" name="heroPower">
+            </p>
+
+        </section>
+
+        <section id="stats">
+            <p>
+                <label for="strength"> Strength: </label>
+                <input type="text" name="strength" id="strength">
+            </p>
+            <p>
+                <label for="speed"> Speed: </label>
+                <input type="text" name="speed" id="speed">
+            </p>
+            <p>
+                <label for="energy"> Energy: </label>
+                <input type="text" name="energy" id="energy">
+            </p>
+            
+            <!--divide user input by 10, round-->
+            <input type="text" id="strDisplay" name ="strDisplay" readonly value="0"> Strength +
+            <input type="text" id="spdDisplay" name ="spdDisplay" readonly value="0"> Speed +
+            <input type="text" id="engDisplay" name ="engDisplay" readonly value="0"> Engergy =
+            <br>
+            <input type="text" id="totPower" name ="totPower" readonly> Total Power
+        </section>
+    </div>
+
+    <div class="col-6 formCol">
+        <!--collapsible form secret id-->
+        <p>
+            <label for="showCivSec">Hero Identity </label>
+            <input type="checkbox" id="showCivSec" name="showCivSec">
+        </p>
+        <section id ="civIdSection" style="display:none">
+            <p>
+            <label for="civName"> Civilian name: </label>
+            <input type="text" id="civName" name="civName">
+            </p>
+
+            <p>
+            <label for="civJob"> Civilian Occupation: </label>
+            <input type="text" id="civJob" name="civJob">
+            </p>
+        </section>
+        <!--dropdownlist-->
+        <section id ="backstorySection">
+            <label for="heroBackstory"> Choose a backstory: </label>
+            <select id="heroBackstory" name="heroBackstory">
+                <option value="1">Time-Displaced</option>
+                <option value="2">Mutant</option>
+                <option value="3">Rich Person</option>
+                <option value="4">Reformed Villian</option>
+                <option value="5">Teenager</option>
+            </select>
+        </section>
+        <!--checkbox/radio-->
+        <section id="archetypeSection">
+            Hero Archetype:
+            <br>
+            <p>
+            <label for="unpowered">No superpowers</label>
+            <input type="radio" id="unpowered" name="archetype" value="unpowered">
+            </p>
+            
+            <p>
+            <label for="tank">Tank</label>
+            <input type="radio" id="tank" name="archetype" value="tank">
+            </p>
+            
+            <p>
+            <label for="magician">Magician</label>
+            <input type="radio" id="magician" name="archetype" value="magician">
+            </p>
+
+            <p>
+            <label for="blaster">Blaster</label>
+            <input type="radio" id="blaster" name="archetype" value="blaster">
+            </p>
+
+            <p>
+            <label for="morpher">Morpher</label>
+            <input type="radio" id="morpher" name="archetype" value="morpher">
+            </p>
+        </section>
+
+        <section id="submitSection">
+            <input type="submit" id="submit" name="submit" value="Submit Hero"> 
+        </section>
+    </div>   
+</div>
+</form>
+</main>
+
+
+<div class = "row">
+        <div class = "col-m-12">
+            <footer>
+                <ul>
+                    <li>Nick Buxton</li>
+                    <li>2024</li>
+                    <li>Weber State Univeristy</li>
+                </ul>
+               
+            </footer>
+        </div>
+</div>
+
+
+</body>
+</html>
