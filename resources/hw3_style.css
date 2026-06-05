@@ -1,0 +1,156 @@
+.smallPad{
+    background-color: #ab4d65;
+    border: 5px #FF0000 dashed;
+    width: 500px;
+    padding: 30px;
+}
+
+.medPad{
+    background-color: #008080;
+    border: 5px #053e24 dashed;
+    width: 500px;
+    padding: 20px 50px;
+}
+
+.largePad{
+    background-color: #cb1b8b;
+    border: 5px #3a0000 dashed;
+    width: 500px;
+    padding: 20px 40px 60px 80px;
+}
+
+.noMargin{
+    background-color: #7fff00;
+    border: 5px #383673 dashed;
+    width:400px;
+    padding:10px;
+}
+
+.someMargin{
+    background-color: #00f2ff;
+    border: 5px #08047c dashed;
+    width:400px;
+    padding:10px;
+    margin-left: 50px;
+}
+
+.largeMarge{
+    background-color: rgb(183, 255, 0);
+    border: 5px #047c2a dashed;
+    width:400px;
+    padding:10px;
+    margin-left: 150px;
+}
+
+.normalDiv{
+    background-color: #8b008b;
+    border: 5px #383673 dashed;
+    width: 500px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.bgColorDiv{
+    background-color: #bb52bb;
+    border: 5px #6e6ca9 dashed;
+    width: 500px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.heightDiv{
+    background-color: #008b89;
+    border: 5px #627336 dashed;
+    width: 500px;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.bgColorDiv:hover{
+    background-color: #00f2ff;
+    transition:all 4s;
+}
+
+.heightDiv:hover{
+    transform:scale(0.5);
+    transition: all 2s;
+}
+
+td.pnkBlk{
+    background-color:#140B0B;
+    color: #E407A9;
+}
+
+td.bluGrn{
+    background-color: #46C370;
+    color:#242894;
+}
+
+td.cynGry{
+    background-color: #D8DFDA;
+    color:#224949;
+}
+
+td.yloOlv{
+    background-color: #789781;
+    color:#EEFF00;
+}
+
+td.prpRd{
+    background-color: #651556;
+    color:#FF0040;
+}
+
+.rel_p{
+    position:relative;
+    left:30px;
+}
+
+
+.anchorDiv{
+    position:relative;
+    left:30px;
+    border: 5px #FF0000 solid;
+    margin:40px;
+    height:100px;
+
+}
+
+.abs_p{
+    position:absolute;
+    right:5px;
+    bottom:5px;
+    border: 5px #FF0000 solid;
+}
+
+.fixed_p{
+    position:fixed;
+    bottom:5px;
+    right:5px;
+    background-color: rgb(189, 218, 208);
+}
+
+.small_h{
+    text-shadow: 4px 4px #00f2ff;
+}
+
+.large_h{
+    text-shadow: 24px 4px #00f2ff;
+}
+
+.small_v{
+    text-shadow: 4px 4px #047c2a;
+}
+
+.large_v{
+    text-shadow: 4px 16px #047c2a;
+}
+
+.small_blur{
+    text-shadow: 4px 4px 2px #7fff00;
+}
+
+.large_blur{
+    text-shadow: 4px 4px 8px #7fff00;
+}

@@ -1,0 +1,13 @@
+span{
+    color:#248752;
+    text-decoration: underline;
+}
+
+input{
+    background-color: #66AFFA;
+    border-color:#1c354f;
+}
+
+label{
+    font-size:20px;
+}
