@@ -1,0 +1,45 @@
+input, select{
+    background-color: #D1F8F3;
+    border: 2px solid #248752;
+    border-radius: 3px;
+}
+
+label{
+    background: rgba(36, 135, 82, .5);
+    margin-right:3px;
+    border-radius:5px;
+}
+
+.formCol{
+    padding-bottom:0px;
+    padding-top:0px;
+}
+
+option{
+    display:inline-block;
+}
+
+#archetypeSection p{
+  display:inline-block;  
+}
+
+#archytpeSection label{
+    margin-right:0px;
+}
+
+#archetypeSection{
+    width:100%;
+}
+
+#submit{
+    background-color: #66FAB4;
+    border:3px solid #248752;
+    width:200px;
+    margin-left: auto;
+    margin-right:auto;
+    padding:7px;
+}
+
+#submitSection{
+    background-color: transparent;
+}
