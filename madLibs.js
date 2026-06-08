@@ -21,7 +21,7 @@ function madLibs(){
         + "<span>" + word1 + "</span> decided they needed a professional, so "
         + "they called <span>" + word6 + "</span> and asked what they should do. "
         + "<span>" + word6 + "</span> thought for a moment and replied &#147;<span>"
-         + word7 + "</span> your <span> " + word8 + "</span>.&#148;";
+         + word7 + "</span> Your <span> " + word8 + "</span>.&#148;";
 }
 
 
