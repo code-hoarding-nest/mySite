@@ -48,144 +48,147 @@
     <main>
         <br>
         <h1>HTML and Style</h1>
+
+    <section class="breakoutSection">
         <h2>The Box Model</h2>
-    <img src = "resources/CSS-Box-Model.avif" alt = "Box with content, padding, 
-    border, and margin" width = "400" height = "280">
-    <p>HTML and CSS use a box model to position elements. Each element 
-        takes up a certain amount of space called a box. There are four parts 
-        of the box model:
-    </p>
-        <ol>
-            <li>Content</li>
-            <li>Padding</li>
-            <li>Border</li>
-            <li>Margin</li>
-        </ol>
-
-    <h3>Content</h3>
-    <p>Content is the stuff that goes inside the element. It's the 'main 
-        course', things like text or pictures.
-    </p>
-
-    <h3>Padding</h3>
-    <p>Padding is the space between the content and the rest of the box. If 
-        you put a ball in a cardboard box, the ball would be the content, and
-         the air between the ball and the box would be the padding.
-    </p>
-
-    <div class = "smallPad">This box has 30 pixels of padding on all sides</div>
-    <div class = "medPad">This box has 20 pixels of padding on the top and 
-        bottom, and 50 pixels of padding on the left and right.
-    </div>
-    <div class = "largePad">This box has 20 pixels of padding on the top, 
-        40 pixels on the right, 60 on the bottom, and 80 on the left.
-    </div>
-
-    <h3>Border</h3>
-    <p>The border is the line that seperates the inside of the box from 
-        everything else. It would be like the cardboard in our box 
-        analogy.
-    </p>
-
-    <h3>Margin</h3>
-    <p>The margin is the space between elements. If we stacked our cardboard 
-        boxes next to each other the margin would be the air between the boxes.
-    </p>
-
-    <div class = "noMargin">This box has no margin.</div>
-    <div class = "someMargin">This box has a left margin of 50 pixels.</div>
-    <div class = "largeMarge">This box has a left margin of 150 pixels.</div>
-
-    <h3>Hovering</h3>
-    <p>Hovering is when you put the mouse over something but don't click it.</p>
-    <div class = "normalDiv">This box has no hover effect.</div>
-    <div class = "bgColorDiv">This box changes background color when you hover over it.</div>
-    <div class = "heightDiv">This box changes height when you hover over it.</div>
-
-    <table>
-        <caption>Color Contrast</caption>
-        <tr>
-            <th>text</th>
-            <th>background color</th>
-            <th>text color</th>
-            <th>contrast ratio</th>
-            <th>rating</th>
-        </tr>
-        <tr>
-            <td class = "pnkBlk">Long ago, the four nations lived together in harmony.</td>
-            <td>#140B0B</td>
-            <td>#E407A9</td>
-            <td>4.52:1</td>
-            <td>AA</td>
-        </tr>
-        <tr>
-            <td class = "bluGrn">Long ago, the four nations lived together in harmony.</td>
-            <td>#46C370</td>
-            <td>#242894</td>
-            <td>5.14:1</td>
-            <td>AA</td>
-        </tr>
-        <tr>
-            <td class = "cynGry">Long ago, the four nations lived together in harmony.</td>
-            <td>#D8DFDA</td>
-            <td>#224949</td>
-            <td>7.31:1</td>
-            <td>AAA</td>
-        </tr>
-        <tr>
-            <td class = "yloOlv">Long ago, the four nations lived together in harmony.</td>
-            <td>#789781</td>
-            <td>#EEFF00</td>
-            <td>2.89:1</td>
-            <td>none</td>
-        </tr>
-        <tr>
-            <td class = "prpRd">Long ago, the four nations lived together in harmony.</td>
-            <td>#651556</td>
-            <td>#FF0040</td>
-            <td>2.96:1</td>
-            <td>none</td>
-        </tr>
-    </table>
-
-    <h2>Positioning</h2>
-    <h3>Relative Position</h3>
-    <p>Relative position changes the placement of an element based on where it 
-        normally would be. Adding to a relative value adds space on that side 
-        of the element.
-    </p>
-
-    <p class = "rel_p">This text is positioned 30px to the right of where it 
-        normally would be.
-    </p>
-
-    <h3>Absoulte Position</h3>
-    <div class = "anchorDiv">
-    <p>Absolute position places an element based on another element.</p>
-    <p class = "abs_p">This paragraph is absolute to a div.</p>
-    </div>
-
-    <h3>Fixed Position</h3>
-    <p>Fixed position places an element based on the viewport.</p>
-    <p class = "fixed_p">This paragraph is fixed to the bottom of the screen.</p>
-
-    <h3>Shadows</h3>
-    <p>Using the text-shadow attribute you can give text shadows.</p>
-
-    <h4>Horizontal</h4>
-    <p>H value controls the width of the shadow.</p>
-    <p class = "small_h">This text has a small h-shadow.</p>
-    <p class = "large_h">This text has a large h-shadow.</p>
-
-    <h4>Vertical</h4>
-    <p>V value controls the height of the shadow.</p>
-    <p class = "small_v">This text has a small v-shadow.</p>
-    <p class = "large_v">This text has a large v-shadow</p>
-
-    <h4>Blur</h4>
-    <p>The blur value controls how fuzzy the shadow is.</p>
-    <p class = "small_blur">This text has low blur.</p>
-    <p class = "large_blur">This text has large blur.</p>
+        <img src = "resources/CSS-Box-Model.avif" alt = "Box with content, padding, 
+        border, and margin" width = "400" height = "280">
+        <p>HTML and CSS use a box model to position elements. Each element 
+            takes up a certain amount of space called a box. There are four parts 
+            of the box model:
+        </p>
+            <ol>
+                <li>Content</li>
+                <li>Padding</li>
+                <li>Border</li>
+                <li>Margin</li>
+            </ol>
+    
+        <h3>Content</h3>
+        <p>Content is the stuff that goes inside the element. It's the 'main 
+            course', things like text or pictures.
+        </p>
+    
+        <h3>Padding</h3>
+        <p>Padding is the space between the content and the rest of the box. If 
+            you put a ball in a cardboard box, the ball would be the content, and
+             the air between the ball and the box would be the padding.
+        </p>
+    
+        <div class = "smallPad">This box has 30 pixels of padding on all sides</div>
+        <div class = "medPad">This box has 20 pixels of padding on the top and 
+            bottom, and 50 pixels of padding on the left and right.
+        </div>
+        <div class = "largePad">This box has 20 pixels of padding on the top, 
+            40 pixels on the right, 60 on the bottom, and 80 on the left.
+        </div>
+    
+        <h3>Border</h3>
+        <p>The border is the line that seperates the inside of the box from 
+            everything else. It would be like the cardboard in our box 
+            analogy.
+        </p>
+    
+        <h3>Margin</h3>
+        <p>The margin is the space between elements. If we stacked our cardboard 
+            boxes next to each other the margin would be the air between the boxes.
+        </p>
+    
+        <div class = "noMargin">This box has no margin.</div>
+        <div class = "someMargin">This box has a left margin of 50 pixels.</div>
+        <div class = "largeMarge">This box has a left margin of 150 pixels.</div>
+    
+        <h3>Hovering</h3>
+        <p>Hovering is when you put the mouse over something but don't click it.</p>
+        <div class = "normalDiv">This box has no hover effect.</div>
+        <div class = "bgColorDiv">This box changes background color when you hover over it.</div>
+        <div class = "heightDiv">This box changes height when you hover over it.</div>
+    
+        <table>
+            <caption>Color Contrast</caption>
+            <tr>
+                <th>text</th>
+                <th>background color</th>
+                <th>text color</th>
+                <th>contrast ratio</th>
+                <th>rating</th>
+            </tr>
+            <tr>
+                <td class = "pnkBlk">Long ago, the four nations lived together in harmony.</td>
+                <td>#140B0B</td>
+                <td>#E407A9</td>
+                <td>4.52:1</td>
+                <td>AA</td>
+            </tr>
+            <tr>
+                <td class = "bluGrn">Long ago, the four nations lived together in harmony.</td>
+                <td>#46C370</td>
+                <td>#242894</td>
+                <td>5.14:1</td>
+                <td>AA</td>
+            </tr>
+            <tr>
+                <td class = "cynGry">Long ago, the four nations lived together in harmony.</td>
+                <td>#D8DFDA</td>
+                <td>#224949</td>
+                <td>7.31:1</td>
+                <td>AAA</td>
+            </tr>
+            <tr>
+                <td class = "yloOlv">Long ago, the four nations lived together in harmony.</td>
+                <td>#789781</td>
+                <td>#EEFF00</td>
+                <td>2.89:1</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <td class = "prpRd">Long ago, the four nations lived together in harmony.</td>
+                <td>#651556</td>
+                <td>#FF0040</td>
+                <td>2.96:1</td>
+                <td>none</td>
+            </tr>
+        </table>
+    
+        <h2>Positioning</h2>
+        <h3>Relative Position</h3>
+        <p>Relative position changes the placement of an element based on where it 
+            normally would be. Adding to a relative value adds space on that side 
+            of the element.
+        </p>
+    
+        <p class = "rel_p">This text is positioned 30px to the right of where it 
+            normally would be.
+        </p>
+    
+        <h3>Absoulte Position</h3>
+        <div class = "anchorDiv">
+        <p>Absolute position places an element based on another element.</p>
+        <p class = "abs_p">This paragraph is absolute to a div.</p>
+        </div>
+    
+        <h3>Fixed Position</h3>
+        <p>Fixed position places an element based on the viewport.</p>
+        <p class = "fixed_p">This paragraph is fixed to the bottom of the screen.</p>
+    
+        <h3>Shadows</h3>
+        <p>Using the text-shadow attribute you can give text shadows.</p>
+    
+        <h4>Horizontal</h4>
+        <p>H value controls the width of the shadow.</p>
+        <p class = "small_h">This text has a small h-shadow.</p>
+        <p class = "large_h">This text has a large h-shadow.</p>
+    
+        <h4>Vertical</h4>
+        <p>V value controls the height of the shadow.</p>
+        <p class = "small_v">This text has a small v-shadow.</p>
+        <p class = "large_v">This text has a large v-shadow</p>
+    
+        <h4>Blur</h4>
+        <p>The blur value controls how fuzzy the shadow is.</p>
+        <p class = "small_blur">This text has low blur.</p>
+        <p class = "large_blur">This text has large blur.</p>
+    </section>
     </main>
 
     <div class = "row">
